@@ -1,0 +1,5 @@
+# mount point   fstype  device                      device2                     flags
+
+# Data
+/data           ext4    /dev/block/bootdevice/by-name/userdata                  flags=encryptable=footer;fsflags="discard"
+/metadata       ext4    /dev/block/bootdevice/by-name/logdump                   flags=display="Metadata";fsflags="discard"
